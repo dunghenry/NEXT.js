@@ -25,7 +25,7 @@ const Book = ({ books }) => {
 
 export const getStaticProps = async () => {
   const books = await getBooks();
-  console.log(books);
+  // console.log(books);
   return {
     props: {
       books,

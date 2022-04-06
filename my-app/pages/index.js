@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+
 import Layout from "../components/Layout";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
