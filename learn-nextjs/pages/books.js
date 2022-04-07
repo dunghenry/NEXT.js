@@ -11,12 +11,12 @@ const Books = () => {
         setBooks(response.data);
     }
     useEffect(() => {
-        console.log("Hi");
         fetchBooks();
         return () => {
-            console.log("Render");
+            console.log("Re-Render");
         }
-    }, [books.length])
+    }, []);
+    console.log("Render");
     const submitBook = async () => {
         const newBook = {
             id: Math.floor(Math.random() * 10000),

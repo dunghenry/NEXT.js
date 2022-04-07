@@ -12,6 +12,7 @@ const NavBar = () => {
         <Link href="/posts" passHref><Nav.Link className={router.pathname == "/posts" ? "active" : ""}>Posts</Nav.Link></Link>
         <Link href="/about" passHref><Nav.Link className={router.pathname == "/about" ? "active" : ""} >About</Nav.Link></Link>
         <Link href="/books" passHref><Nav.Link className={router.pathname == "/books" ? "active" : ""} >Books</Nav.Link></Link>
+        <Link href="/jokes/random" passHref><Nav.Link className={router.pathname == "/jokes/random" ? "active" : ""} >Jokes</Nav.Link></Link>
       </Nav>
     </Navbar>
   );
