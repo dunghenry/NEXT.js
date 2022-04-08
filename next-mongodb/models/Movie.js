@@ -4,9 +4,6 @@ const movieSchema = new Schema({
     title: {
         type: String,
         required: true,
-        unique: true,
-        minLength: 10,
-        maxLength: 100
     },
     plot: {
         type: String,
